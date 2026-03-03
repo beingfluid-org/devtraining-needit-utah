@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="19534c9fc3177a1070159a2ed4013134" extends="cmdb_qb_result_base" label="Insight - Non-cloud Applications-Query Results" max_length="40" name="u_cmdb_qb_result_b979f5acfc85563854dd934b335656382d3c7475" type="collection">
+        <element attributes="encode_utf8=false" label="Server 1" max_length="32" name="x_58872_needit_u_server_1" reference="cmdb_ci_server" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Logical Datacenter 1" max_length="32" name="x_58872_needit_u_logical_datacenter_1" reference="cmdb_ci_logical_datacenter" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Application 1_Server 1" max_length="32" name="x_58872_needit_u_rel_application_1_server_1" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Virtual Machine Instance 1_Logical Datacenter 1" max_length="32" name="x_58872_needit_u_rel_virtual_machine_instance_1_logical_datacenter_1" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Application 1_Server 2" max_length="32" name="x_58872_needit_u_rel_application_1_server_2" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Server 1_Virtual Machine Instance 1" max_length="32" name="x_58872_needit_u_rel_server_1_virtual_machine_instance_1" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Server 2" max_length="32" name="x_58872_needit_u_server_2" reference="cmdb_ci_server" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Application 1" max_length="32" name="x_58872_needit_u_application_1" reference="cmdb_ci_appl" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Virtual Machine Instance 1" max_length="32" name="x_58872_needit_u_virtual_machine_instance_1" reference="cmdb_ci_vm_instance" reference_cascade_rule="none" type="reference"/>
+    </element>
+</database>
